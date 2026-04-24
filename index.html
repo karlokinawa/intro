@@ -1139,6 +1139,15 @@ html, body{
 </style>
 
 
+<link rel="preconnect" href="https://karlokinawa.github.io">
+
+
+
+
+
+
+
+
 <style id="i83_phase1">
 #L28{ animation: i83_l28 4s ease-out 1s both; }
 #L29{ animation: i83_l29 4s ease-out 1s both; }
@@ -1568,6 +1577,91 @@ html, body{
 
 
 
+
+
+
+
+<style id="mobile_stage_text">
+#credit_top{
+  position:absolute;
+  left:50%;
+  top:-950px;
+  transform:translateX(-50%);
+  color:white;
+  font-size:180px;
+  letter-spacing:14px;
+  text-align:center;
+  opacity:0;
+  pointer-events:none;
+  line-height:1.05;
+  animation:fadeInTxt 1s ease 0.5s forwards;
+}
+#credit_bottom{
+  position:absolute;
+  left:50%;
+  top:3250px;
+  transform:translateX(-50%);
+  color:white;
+  font-size:140px;
+  letter-spacing:6px;
+  opacity:0;
+  pointer-events:none;
+  animation:fadeInTxt 1s ease 0.5s forwards;
+}
+@keyframes fadeInTxt{
+  from{opacity:0;}
+  to{opacity:0.85;}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<style id="fm_logo_css">
+#fm_logo_top{
+  position:absolute;
+  left:45%;
+  top:-800px;
+  transform:translateX(-50%) scale(1.18);
+  width:1800px;
+  height:520px;
+  pointer-events:none;
+  opacity:0;
+  overflow:visible;
+  animation:fadeInTxt 1s ease 0.5s forwards;
+  filter:drop-shadow(0 2px 6px rgba(255,255,255,0.18));
+}
+
+.fm_arc_text{
+  font-family:"Times New Roman", Georgia, serif;
+  font-size:112px;
+  font-weight:700;
+  letter-spacing:8px;
+  fill:#f2f2f2;
+}
+
+.fm_geneve{
+  font-family:"Times New Roman", Georgia, serif;
+  font-size:76px;
+  font-weight:700;
+  letter-spacing:5px;
+  fill:#f2f2f2;
+}
+</style>
+
+
+
+
+
+
+<link rel="prefetch" href="https://karlokinawa.github.io/Mega-4/">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0f2148">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1597,6 +1691,31 @@ if ('serviceWorker' in navigator) {
 
 
 <div id="viewer"><div id="stageShell"><div id="stage">
+
+
+
+<svg id="fm_logo_top" viewBox="0 0 1800 520">
+  <defs>
+    <path id="fm_arc" d="M 220 330 Q 900 70 1580 330" />
+  </defs>
+  <text class="fm_arc_text">
+    <textPath href="#fm_arc" startOffset="50%" text-anchor="middle">
+      FRANCK MULLER
+    </textPath>
+  </text>
+  <text x="900" y="410" text-anchor="middle" class="fm_geneve">
+    GENEVE
+  </text>
+</svg>
+
+
+
+
+
+<div id="credit_bottom">
+HTML Code Made with ChatGPT
+</div>
+
 
 <img id="frame_026" alt="year 026 frame" src="asset_001_0030f0fd.png">
 <img id="number_026" alt="026 number" src="asset_002_1ea255d9.png">

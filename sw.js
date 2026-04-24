@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mega4-i150-light-v1';
+const CACHE_NAME = 'mega4-i164-v2';
 const ASSETS = [
   "./",
   "./apple-touch-icon.png",

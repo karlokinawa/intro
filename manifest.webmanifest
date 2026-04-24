@@ -1,7 +1,7 @@
 {
   "name": "Mega 4",
   "short_name": "Mega 4",
-  "description": "Mega 4 watch intro light PWA",
+  "description": "Mega 4 intro PWA",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
